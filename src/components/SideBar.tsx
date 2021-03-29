@@ -13,7 +13,7 @@ interface GenreProps {
 
 
 
-export function SideBar({ onHandleAction, onGenreDate, onIdSelect }: GenreProps) {
+export function SideBar({ onHandleAction, onGenreDate, onIdSelect}: GenreProps) {
   return (
     <nav className="sidebar">
       <span>
